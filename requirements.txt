@@ -1,0 +1,13 @@
+torch
+torchaudio
+torchvision
+numpy
+scipy
+tqdm
+soundfile
+optuna
+h5py
+sklearn
+soundfile
+librosa
+tonic
