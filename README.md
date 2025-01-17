@@ -39,28 +39,52 @@ This repository consists of a few key components:
 ---
 
 ## Usage
-The `run.py` script can be run using various arguments. The following are available:
 
-- `--seed`: Random seed for reproducibility.
-- `--dataset`: The dataset to use for training, options include `heidelberg`, `ntidigits`, `nmnist`, `dvsgesture` and `yinyang` .
-- `--neuron`: The neuron model to use for training, options include `LIF`, `ParaLIF-SB`, `ParaLIF-GS`, `ParaLIF-D`, `ParaLIF-T` and other variations.
-- `--nb_epochs`: The number of training epochs.
-- `--tau_mem`: The neuron membrane time constant.
-- `--tau_syn`: The neuron synaptic current time constant.
-- `--batch_size`: The batch size for training.
-- `--hidden_size`: The number of neurons in the hidden layer.
-- `--nb_layers`: The number of hidden layers.
-- `--recurrent`: Whether to use recurrent architecture or not.
-- `--reg_thr`: The spiking frequency regularization threshold.
-- `--reg_thr_r`: The spiking frequency regularization threshold for recurrent spikes.
-- `--loss_mode`: The mode for computing the loss, options include `last`, `max`, and `mean`.
-- `--data_augmentation`: Whether to use data augmentation during training.
-- `--shift`: The random shift factor for data augmentation.
-- `--scale`: The random scale factor for data augmentation.
-- `--window_size`: Define the input time resolution.
-- `--dir`: The directory to save the results.
-- `--save_model`: Whether to save the trained model.
-- `--best_config`: Select the best configuration for the given dataset.
+1.  **Install Required Packages:** Install the necessary Python packages by running the following command:
+    
+    ```bash
+    pip install -r requirements.txt
+    
+    ```
+    
+2.  **Create a Repository for Datasets:** Create a directory named `datasets` where the datasets will be stored:
+    
+    ```bash
+    mkdir datasets
+    
+    ```
+    
+3.  **Download Datasets:** The **SHD** and **NTidigits** datasets need to be downloaded manually. You can obtain them from the following links:
+    
+    -   [Download SHD Dataset](https://zenkelab.org/resources/spiking-heidelberg-datasets-shd/)
+    -   [Download NTidigits Dataset](https://docs.google.com/document/d/1Uxe7GsKKXcy6SlDUX4hoJVAC0-UkH-8kr5UXp0Ndi1M)
+    
+      The remaining datasets will be downloaded automatically.
+
+
+
+4.  **Run the scripts:** The `examples/basic/run.py` script can be run using various arguments. The following are available:
+
+     - `--seed`: Random seed for reproducibility.
+     - `--dataset`: The dataset to use for training, options include `heidelberg`, `ntidigits`, `nmnist`, `dvsgesture` and `yinyang` .
+     - `--neuron`: The neuron model to use for training, options include `LIF`, `ParaLIF-SB`, `ParaLIF-GS`, `ParaLIF-D`, `ParaLIF-T` and other variations.
+     - `--nb_epochs`: The number of training epochs.
+     - `--tau_mem`: The neuron membrane time constant.
+     - `--tau_syn`: The neuron synaptic current time constant.
+     - `--batch_size`: The batch size for training.
+     - `--hidden_size`: The number of neurons in the hidden layer.
+     - `--nb_layers`: The number of hidden layers.
+     - `--recurrent`: Whether to use recurrent architecture or not.
+     - `--reg_thr`: The spiking frequency regularization threshold.
+     - `--reg_thr_r`: The spiking frequency regularization threshold for recurrent spikes.
+     - `--loss_mode`: The mode for computing the loss, options include `last`, `max`, and `mean`.
+     - `--data_augmentation`: Whether to use data augmentation during training.
+     - `--shift`: The random shift factor for data augmentation.
+     - `--scale`: The random scale factor for data augmentation.
+     - `--window_size`: Define the input time resolution.
+     - `--dir`: The directory to save the results.
+     - `--save_model`: Whether to save the trained model.
+     - `--best_config`: Select the best configuration for the given dataset.
 
 ---
 
