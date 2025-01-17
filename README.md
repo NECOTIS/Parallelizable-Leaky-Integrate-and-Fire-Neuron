@@ -7,7 +7,7 @@ This repository contains code for simulating ParaLIF neuron to accelerate traini
 Across a range of neuromorphic datasets, ParaLIF demonstrated speeds up to 200 times faster than LIF neurons, consistently achieving superior accuracy on average with comparable sparsity.
 This time comparison can be analyzed using the `running_time_comparison.py` script.
 
-![ParaLIF acceleration](.\images\time_comparison.png)
+![ParaLIF acceleration](images/time_comparison.png)
 
 ---
 ## Repository Structure
