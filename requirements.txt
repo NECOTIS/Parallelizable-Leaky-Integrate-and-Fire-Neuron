@@ -11,3 +11,4 @@ sklearn
 soundfile
 librosa
 tonic
+spikingjelly
