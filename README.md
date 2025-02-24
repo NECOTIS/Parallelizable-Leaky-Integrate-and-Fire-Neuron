@@ -104,8 +104,9 @@ If you find this work helpful, please consider citing it:
 
 ```
 @article{yarga2024accelerating,
-  title={Accelerating Spiking Neural Networks with Parallelizable Leaky Integrate-and-Fire Neurons},
+  title={Accelerating spiking neural networks with parallelizable leaky integrate-and-fire neurons},
   author={Yarga, Sidi Yaya Arnaud and Wood, Sean UN},
+  journal={Neuromorphic Computing and Engineering},
   year={2024}
 }
 ```
