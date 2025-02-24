@@ -1,6 +1,6 @@
 # Parallelizable Leaky-Integrate-and-Fire (ParaLIF) Neuron
 
-This repository contains code for simulating ParaLIF neuron to accelerate training of spiking neural networks (SNN). ParaLIF is presented in `Yarga, S. Y. A., & Wood, S. U. (2024). Accelerating Spiking Neural Networks with Parallelizable Leaky Integrate-and-Fire Neurons`. The ParaLIF neuron is compared to Leaky-Integrate-and-Fire (LIF) neuron on the Spiking Heidelberg Digits (SHD), Neuromorphic-TIDIGITS, Neuromorphic-MNIST, DVSGesture, Yin-Yang and Sequencial Cifar10 datasets. 
+This repository contains code for simulating ParaLIF neuron to accelerate training of spiking neural networks (SNN). ParaLIF is presented in [`Yarga, S. Y. A., & Wood, S. U. (2024). Accelerating Spiking Neural Networks with Parallelizable Leaky Integrate-and-Fire Neurons`](https://doi.org/10.1088/2634-4386/adb7fe). The ParaLIF neuron is compared to Leaky-Integrate-and-Fire (LIF) neuron on the Spiking Heidelberg Digits (SHD), Neuromorphic-TIDIGITS, Neuromorphic-MNIST, DVSGesture, Yin-Yang and Sequencial Cifar10 datasets. 
 
 ---
 ## Acceleration
